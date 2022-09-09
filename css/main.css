@@ -1,0 +1,67 @@
+body{
+    font-family: Roboto;
+    padding: 50px;
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 90px;
+    width: calc(100% - 1.55%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.subtitle {
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.thread {
+    background-color: #2d3943;
+    border-radius: 5px;
+    padding: 20px;
+    width: 250px;
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.thread--wide {
+    width: 500px;
+}
+.thread--extra-wide {
+    width: calc(100% - 50px);
+    font-size: xx-large;
+}
+
+.title--huge {
+    font-size: 100px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.bg-image {
+    padding: 10px;
+}
+
+.logo {
+    width: 100px;
+}
+
